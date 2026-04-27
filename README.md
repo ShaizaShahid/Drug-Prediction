@@ -1,36 +1,94 @@
-# Task01_AI_ShaizaShahid_CoreTech
+# Drug Prediction
 
-Project Description
-This repository contains Task 01: AI Setup, Basics, and First Client-Oriented Sample.
-The task demonstrates basic understanding of Artificial Intelligence concepts and a simple Machine Learning implementation suitable for a client demo at CoreTech Innovations.
+# 💊 Drug Prediction using Machine Learning
 
-Part A: AI Setup & Basic Understanding
-This part includes a short academic document (250–300 words) that explains:
-What Artificial Intelligence is
-The difference between Artificial Intelligence, Machine Learning, and Deep Learning
-Real-world AI use cases for business clients
-How CoreTech Innovations can offer AI solutions to clients
-File included:
-AI_Basics_CoreTech.docx
+This project uses machine learning algorithms to predict the appropriate drug for a patient based on medical features such as age, sex, blood pressure, and cholesterol levels.
 
-Part B: Practical / First Client Sample
-A simple Machine Learning classification model is implemented using a public dataset (drug200.csv).
-The notebook demonstrates a basic AI workflow suitable for a client demo.
-The notebook includes:
-Dataset loading
-Data exploration
-Data preprocessing (label encoding)
-Train–test split
-Decision Tree model training
-Overfitting control using tree depth and sample constraints
-Model evaluation using accuracy and classification report
-Notebook included:
-Drug_Prediction_ML.ipynb
+---
 
-Tools & Technologies
-Python
-Google Colab
-Pandas
-Scikit-learn
-GitHub
+## 📌 Project Overview
+
+* Predicts drug type based on patient data
+* Uses classification algorithms
+* Compares performance of different ML models
+* Helps in decision-making for medical prescriptions
+
+---
+
+## 📊 Dataset Features
+
+The dataset includes:
+
+* Age
+* Sex
+* Blood Pressure (BP)
+* Cholesterol
+* Na_to_K ratio
+* Drug (Target variable)
+
+---
+
+## 🧠 Models Used
+
+* K-Nearest Neighbors (KNN)
+* Decision Tree
+* Random Forest
+* Support Vector Machine (SVM)
+* Naive Bayes
+
+---
+
+## ⚙️ Workflow
+
+1. Import libraries
+2. Load dataset
+3. Data preprocessing (encoding categorical values)
+4. Split data into training and testing sets
+5. Train multiple models
+6. Evaluate models using accuracy
+7. Compare performance
+
+---
+
+## 📈 Evaluation Metrics
+
+* Accuracy Score
+* Confusion Matrix
+* Model Comparison
+
+---
+
+## ▶️ How to Run
+
+1. Open the notebook in Jupyter Notebook or Google Colab
+2. Run all cells step by step
+3. View model results and comparisons
+
+---
+
+## 🛠️ Requirements
+
+Install dependencies:
+
+```bash id="0tqn2x"
+pip install pandas numpy scikit-learn matplotlib seaborn
+```
+
+---
+
+## 📊 Results
+
+* Multiple models were trained and evaluated
+* Best-performing model selected based on accuracy
+
+(Add your actual accuracy results here)
+
+---
+
+## 🚀 Future Improvements
+
+* Hyperparameter tuning
+* Use larger medical datasets
+* Deploy model as a web application
+* Improve accuracy with advanced algorithms
 
